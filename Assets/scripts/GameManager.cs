@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour {
 	void Start () {
 		indexSelectedWord = 0;
 		imageWord = GameObject.Find("ImageWord").GetComponent<Image>();
-		scrollList = GameObject.Find ("ScrollableList");
+		scrollList = GameObject.Find ("List");
 		selectDefaultWord (indexSelectedWord);		
 	}
 
